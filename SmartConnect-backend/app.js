@@ -10,7 +10,7 @@ var web3 = new Web3(web3Provider);
 var YourContract= new web3.eth.Contract(ABI.abi, ABI.contractAdress);
 console.log(YourContract)
 }
-app.get('/', (req, res) => res.send('Welcome to Make REST API Calls In Express!'))
+app.get('/', (req, res) => res.send('Testing for api'))
 app.listen(port, () => {console.log(`App listening on port ${port}!`)
 connectingtoAcontract()
 })
